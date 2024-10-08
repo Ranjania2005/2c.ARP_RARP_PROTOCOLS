@@ -37,7 +37,6 @@ while True:
 ```
 Server
 
-```
 import socket 
 s=socket.socket() 
 s.connect(('localhost',8000)) 
