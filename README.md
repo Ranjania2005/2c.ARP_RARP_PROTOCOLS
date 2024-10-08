@@ -44,7 +44,7 @@ while True:
      ip=input("Enter logical Address : ") 
      s.send(ip.encode()) 
      print("MAC Address",s.recv(1024).decode())
-     ```
+ ```
 ## OUPUT - ARP
 
 ![WhatsApp Image 2024-10-08 at 08 18 22_b00f4d16](https://github.com/user-attachments/assets/9b3c81f6-aac9-41d9-8c4f-be532af0ce41)
